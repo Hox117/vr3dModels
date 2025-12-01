@@ -103,15 +103,16 @@
 	"materials":[
 		{
 			"doubleSided":true,
-			"name":"blanco",
+			"name":"lightGray",
 			"pbrMetallicRoughness":{
 				"baseColorFactor":[
-					0.800000011920929,
-					0.800000011920929,
-					0.800000011920929,
+					0.5488501191139221,
+					0.5488501191139221,
+					0.5488501191139221,
 					1
 				],
-				"metallicFactor":0
+				"metallicFactor":0,
+				"roughnessFactor":0.5
 			}
 		},
 		{
