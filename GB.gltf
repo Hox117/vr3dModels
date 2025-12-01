@@ -103,6 +103,19 @@
 	"materials":[
 		{
 			"doubleSided":true,
+			"name":"blanco",
+			"pbrMetallicRoughness":{
+				"baseColorFactor":[
+					0.800000011920929,
+					0.800000011920929,
+					0.800000011920929,
+					1
+				],
+				"metallicFactor":0
+			}
+		},
+		{
+			"doubleSided":true,
 			"name":"Negro.001",
 			"pbrMetallicRoughness":{
 				"baseColorFactor":[
@@ -125,7 +138,8 @@
 						"NORMAL":1,
 						"TEXCOORD_0":2
 					},
-					"indices":3
+					"indices":3,
+					"material":0
 				}
 			]
 		},
@@ -138,7 +152,8 @@
 						"NORMAL":5,
 						"TEXCOORD_0":6
 					},
-					"indices":3
+					"indices":3,
+					"material":0
 				}
 			]
 		},
@@ -151,7 +166,8 @@
 						"NORMAL":8,
 						"TEXCOORD_0":9
 					},
-					"indices":3
+					"indices":3,
+					"material":0
 				}
 			]
 		},
@@ -164,7 +180,8 @@
 						"NORMAL":11,
 						"TEXCOORD_0":12
 					},
-					"indices":3
+					"indices":3,
+					"material":0
 				}
 			]
 		},
@@ -178,7 +195,7 @@
 						"TEXCOORD_0":15
 					},
 					"indices":3,
-					"material":0
+					"material":1
 				}
 			]
 		}
