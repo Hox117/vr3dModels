@@ -15,28 +15,13 @@
 				4,
 				5,
 				6,
-				7,
-				8
+				7
 			]
 		}
 	],
 	"nodes":[
 		{
 			"mesh":0,
-			"name":"Cube",
-			"scale":[
-				10,
-				1,
-				12
-			],
-			"translation":[
-				-46,
-				0,
-				30
-			]
-		},
-		{
-			"mesh":1,
 			"name":"Cube.001",
 			"scale":[
 				4,
@@ -50,7 +35,7 @@
 			]
 		},
 		{
-			"mesh":2,
+			"mesh":1,
 			"name":"Cube.005",
 			"scale":[
 				5.300000190734863,
@@ -64,7 +49,7 @@
 			]
 		},
 		{
-			"mesh":3,
+			"mesh":2,
 			"name":"Cube.006",
 			"scale":[
 				3,
@@ -78,7 +63,7 @@
 			]
 		},
 		{
-			"mesh":4,
+			"mesh":3,
 			"name":"Cube.010",
 			"scale":[
 				5.300000190734863,
@@ -92,7 +77,7 @@
 			]
 		},
 		{
-			"mesh":5,
+			"mesh":4,
 			"name":"Cube.011",
 			"scale":[
 				4,
@@ -106,7 +91,7 @@
 			]
 		},
 		{
-			"mesh":6,
+			"mesh":5,
 			"name":"Cube.012",
 			"scale":[
 				5.300000190734863,
@@ -120,7 +105,7 @@
 			]
 		},
 		{
-			"mesh":7,
+			"mesh":6,
 			"name":"Cube.017",
 			"scale":[
 				5.300000190734863,
@@ -134,7 +119,7 @@
 			]
 		},
 		{
-			"mesh":8,
+			"mesh":7,
 			"name":"Cube.022",
 			"scale":[
 				11.300000190734863,
@@ -165,7 +150,7 @@
 	],
 	"meshes":[
 		{
-			"name":"Cube.003",
+			"name":"Cube.004",
 			"primitives":[
 				{
 					"attributes":{
@@ -179,7 +164,7 @@
 			]
 		},
 		{
-			"name":"Cube.004",
+			"name":"Cube.010",
 			"primitives":[
 				{
 					"attributes":{
@@ -193,7 +178,7 @@
 			]
 		},
 		{
-			"name":"Cube.010",
+			"name":"Cube.009",
 			"primitives":[
 				{
 					"attributes":{
@@ -207,7 +192,7 @@
 			]
 		},
 		{
-			"name":"Cube.009",
+			"name":"Cube.014",
 			"primitives":[
 				{
 					"attributes":{
@@ -221,7 +206,7 @@
 			]
 		},
 		{
-			"name":"Cube.014",
+			"name":"Cube.015",
 			"primitives":[
 				{
 					"attributes":{
@@ -235,7 +220,7 @@
 			]
 		},
 		{
-			"name":"Cube.015",
+			"name":"Cube.016",
 			"primitives":[
 				{
 					"attributes":{
@@ -249,7 +234,7 @@
 			]
 		},
 		{
-			"name":"Cube.016",
+			"name":"Cube.034",
 			"primitives":[
 				{
 					"attributes":{
@@ -263,27 +248,13 @@
 			]
 		},
 		{
-			"name":"Cube.034",
+			"name":"Cube.026",
 			"primitives":[
 				{
 					"attributes":{
 						"POSITION":22,
 						"NORMAL":23,
 						"TEXCOORD_0":24
-					},
-					"indices":3,
-					"material":0
-				}
-			]
-		},
-		{
-			"name":"Cube.026",
-			"primitives":[
-				{
-					"attributes":{
-						"POSITION":25,
-						"NORMAL":26,
-						"TEXCOORD_0":27
 					},
 					"indices":3,
 					"material":0
@@ -476,7 +447,7 @@
 				1
 			],
 			"min":[
-				-1,
+				-2.132075309753418,
 				-1,
 				-1
 			],
@@ -504,7 +475,7 @@
 				1
 			],
 			"min":[
-				-2.132075309753418,
+				-1,
 				-1,
 				-1
 			],
@@ -518,34 +489,6 @@
 		},
 		{
 			"bufferView":24,
-			"componentType":5126,
-			"count":24,
-			"type":"VEC2"
-		},
-		{
-			"bufferView":25,
-			"componentType":5126,
-			"count":24,
-			"max":[
-				1,
-				1,
-				1
-			],
-			"min":[
-				-1,
-				-1,
-				-1
-			],
-			"type":"VEC3"
-		},
-		{
-			"bufferView":26,
-			"componentType":5126,
-			"count":24,
-			"type":"VEC3"
-		},
-		{
-			"bufferView":27,
 			"componentType":5126,
 			"count":24,
 			"type":"VEC2"
@@ -701,29 +644,11 @@
 			"byteLength":192,
 			"byteOffset":6024,
 			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":288,
-			"byteOffset":6216,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":288,
-			"byteOffset":6504,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":192,
-			"byteOffset":6792,
-			"target":34962
 		}
 	],
 	"buffers":[
 		{
-			"byteLength":6984,
+			"byteLength":6216,
 			"uri":"Blancos.bin"
 		}
 	]
