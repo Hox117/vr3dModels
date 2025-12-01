@@ -17,7 +17,8 @@
 				6,
 				7,
 				8,
-				9
+				9,
+				10
 			]
 		}
 	],
@@ -160,6 +161,20 @@
 				33.09999465942383,
 				0,
 				-42.76000213623047
+			]
+		},
+		{
+			"mesh":10,
+			"name":"Cube.024",
+			"scale":[
+				10,
+				1,
+				12
+			],
+			"translation":[
+				-0.15276336669921875,
+				0,
+				-0.3982810974121094
 			]
 		}
 	],
@@ -381,6 +396,20 @@
 					},
 					"indices":3,
 					"material":5
+				}
+			]
+		},
+		{
+			"name":"Cube.040",
+			"primitives":[
+				{
+					"attributes":{
+						"POSITION":31,
+						"NORMAL":32,
+						"TEXCOORD_0":33
+					},
+					"indices":3,
+					"material":0
 				}
 			]
 		}
@@ -671,6 +700,34 @@
 			"componentType":5126,
 			"count":24,
 			"type":"VEC2"
+		},
+		{
+			"bufferView":31,
+			"componentType":5126,
+			"count":24,
+			"max":[
+				1,
+				1,
+				1
+			],
+			"min":[
+				-1,
+				-1,
+				-1
+			],
+			"type":"VEC3"
+		},
+		{
+			"bufferView":32,
+			"componentType":5126,
+			"count":24,
+			"type":"VEC3"
+		},
+		{
+			"bufferView":33,
+			"componentType":5126,
+			"count":24,
+			"type":"VEC2"
 		}
 	],
 	"bufferViews":[
@@ -859,11 +916,29 @@
 			"byteLength":192,
 			"byteOffset":7560,
 			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":288,
+			"byteOffset":7752,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":288,
+			"byteOffset":8040,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":192,
+			"byteOffset":8328,
+			"target":34962
 		}
 	],
 	"buffers":[
 		{
-			"byteLength":7752,
+			"byteLength":8520,
 			"uri":"Grises.bin"
 		}
 	]
